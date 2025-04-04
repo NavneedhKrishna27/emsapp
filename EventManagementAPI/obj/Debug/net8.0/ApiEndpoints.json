@@ -101,6 +101,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EventManagementSystemMerged.Controllers.BookingController",
+    "Method": "CancelTicket",
+    "RelativePath": "api/Booking/cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EventManagementSystemMerged.Controllers.BookingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EventManagementAPI.Controllers.EventController",
     "Method": "AddEvent",
     "RelativePath": "api/Event/add-event",
@@ -420,6 +436,84 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[EventManagementSystemMerged.Models.Ticket, EventManagementSystem(Merged), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.TicketController",
+    "Method": "GetTicketId",
+    "RelativePath": "api/Ticket/{ticketId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EventManagementSystemMerged.Models.Ticket",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.TicketController",
+    "Method": "GetParticipants",
+    "RelativePath": "api/Ticket/participants/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[EventManagementSystemMerged.Models.User, EventManagementSystem(Merged), Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.TicketController",
+    "Method": "GetTicketsSold",
+    "RelativePath": "api/Ticket/tickets-sold/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
         "MediaTypes": [
           "text/plain",
           "application/json",

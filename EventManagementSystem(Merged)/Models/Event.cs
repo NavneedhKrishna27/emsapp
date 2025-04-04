@@ -16,6 +16,7 @@
         public bool IsPrice { get; set; }
         public decimal? Price { get; set; }
         public bool IsActive { get; set; }
+        public int BookedCapacity { get; set; }
         public ICollection<Feedback> Feedbacks { get; set; }
         public ICollection<Notification> Notifications { get; set; }
         public ICollection<Payment> Payments { get; set; }

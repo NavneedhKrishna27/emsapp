@@ -4,7 +4,7 @@ namespace EventManagementSystemMerged.Models
 {
     public class Ticket
     {
-        [Key]
+        
         public int TicketID { get; set; }
         public int EventID { get; set; }
         //public Event Event { get; set; }

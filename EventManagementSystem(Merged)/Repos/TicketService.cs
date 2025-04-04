@@ -1,11 +1,7 @@
 ﻿using EventManagementSystemMerged.Data;
 using EventManagementSystemMerged.Models;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EventManagementSystem_Merged_.Repos
 {
@@ -18,12 +14,30 @@ namespace EventManagementSystem_Merged_.Repos
             _context = context;
         }
 
-        public List<Ticket> GetAllTicketsAsync()
+        public List<Ticket> GetAllTickets()
         {
             return _context.Tickets.ToList();
         }
 
+        public Ticket GetTicketById(int ticketId)
+        {
+            return _context.Tickets.Find(ticketId);
+        }
 
+        public int GetNumberOfTicketsSold(int eventId)
+        {
+            return _context.Tickets.Count(t => t.EventID == eventId);
+        }
 
+        public List<User> GetParticipants(int eventId)
+        {
+            return _context.Tickets
+                           .Where(t => t.EventID == eventId)
+                           .Join(_context.Users,
+                                 ticket => ticket.UserID,
+                                 user => user.UserID,
+                                 (ticket, user) => user)
+                           .ToList();
+        }
     }
 }

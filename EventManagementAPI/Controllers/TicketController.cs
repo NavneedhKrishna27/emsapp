@@ -1,7 +1,7 @@
 ﻿using EventManagementSystem_Merged_.Repos;
 using EventManagementSystemMerged.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace EventManagementAPI.Controllers
 {
@@ -9,18 +9,43 @@ namespace EventManagementAPI.Controllers
     [ApiController]
     public class TicketController : ControllerBase
     {
-        private readonly TicketService _TicketService;
-        public TicketController(TicketService TicketService)
+        private readonly TicketService _ticketService;
+
+        public TicketController(TicketService ticketService)
         {
-            _TicketService = TicketService;
-
-
+            _ticketService = ticketService;
         }
+
         [HttpGet]
         public ActionResult<List<Ticket>> GetTickets()
         {
-            var Tickets =  _TicketService.GetAllTicketsAsync();
-            return Ok(Tickets);
+            var tickets = _ticketService.GetAllTickets();
+            return Ok(tickets);
+        }
+
+        [HttpGet("{ticketId}")]
+        public ActionResult<Ticket> GetTicketId(int ticketId)
+        {
+            var ticket = _ticketService.GetTicketById(ticketId);
+            if (ticket == null)
+            {
+                return NotFound(new { message = "Ticket not found" });
+            }
+            return Ok(ticket);
+        }
+
+        [HttpGet("tickets-sold/{eventId}")]
+        public ActionResult<int> GetTicketsSold(int eventId)
+        {
+            var ticketsSold = _ticketService.GetNumberOfTicketsSold(eventId);
+            return Ok(ticketsSold);
+        }
+
+        [HttpGet("participants/{eventId}")]
+        public ActionResult<List<User>> GetParticipants(int eventId)
+        {
+            var participants = _ticketService.GetParticipants(eventId);
+            return Ok(participants);
         }
     }
 }

@@ -46,6 +46,9 @@ namespace EventManagementSystemMerged.Repos
                 var existingEvent = context.Events.Find(id);
                 if (existingEvent != null)
                 {
+                    // Check if the start date has changed
+                    bool isDateChanged = existingEvent.StartDate != eventDetails.StartDate;
+
                     existingEvent.Name = eventDetails.Name;
                     existingEvent.CategoryID = eventDetails.CategoryID;
                     existingEvent.LocationID = eventDetails.LocationID;
@@ -58,9 +61,45 @@ namespace EventManagementSystemMerged.Repos
                     existingEvent.IsActive = eventDetails.IsActive;
 
                     context.SaveChanges();
+
+                    // Send notifications if the date has changed
+                    if (isDateChanged)
+                    {
+                        NotifyUsersOfDateChange(existingEvent.EventID, existingEvent.StartDate);
+                    }
                 }
             }
         }
+
+        private void NotifyUsersOfDateChange(int eventId, DateTime newDate)
+        {
+            using (var context = new AppDbContext())
+            {
+                var users = context.Tickets
+                                   .Where(t => t.EventID == eventId)
+                                   .Select(t => t.UserID)
+                                   .Distinct()
+                                   .ToList();
+
+                var eventName = context.Events.Find(eventId)?.Name ?? "Unknown Event";
+
+                foreach (var userId in users)
+                {
+                    var notification = new Notification
+                    {
+                        UserID = userId,
+                        EventID = eventId,
+                        Message = $"The date for {eventName} has been changed to {newDate}.",
+                        SentTimestamp = DateTime.Now
+                    };
+
+                    context.Notifications.Add(notification);
+                }
+
+                context.SaveChanges();
+            }
+        }
+
         #endregion
 
         #region Delete Event

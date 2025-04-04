@@ -25,7 +25,7 @@ namespace EventManagementSystem_Merged_.Repos
         {
             var payment = _context.Payments.Find(paymentId);
 
-            if (payment != null && payment.PaymentStatus == "Completed")
+            if (payment != null && payment.PaymentStatus == true)
             {
                 var ticket = new Ticket
                 {

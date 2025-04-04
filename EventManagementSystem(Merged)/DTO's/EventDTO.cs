@@ -22,5 +22,6 @@ namespace EventManagementSystem_Merged_.DTO_s
         public bool IsPrice { get; set; }
         public decimal? Price { get; set; }
         public bool IsActive { get; set; }
+           public int BookedCapacity { get; set; }
     }
 }

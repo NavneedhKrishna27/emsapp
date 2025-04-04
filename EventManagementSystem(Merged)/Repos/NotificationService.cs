@@ -6,14 +6,14 @@ namespace EventManagementSystemMerged.Repo
 {
     public class NotificationServices
     {
-        public void SendNotification(int userId, int eventId, bool bookingStatus, string eventName, DateTime eventDate)
+        public void SendNotification(int userId, int eventId, bool bookingStatus, string eventName, DateTime eventDate, string customMessage = null)
         {
+            var message = customMessage ?? (bookingStatus ? $"Your booking for {eventName} on {eventDate} is confirmed." : $"Your booking for {eventName} on {eventDate} failed.");
             var notification = new Notification
             {
                 UserID = userId,
                 EventID = eventId,
-             
-                Message = bookingStatus ? $"Your booking for {eventName} on {eventDate} is confirmed." : $"Your booking for {eventName} on {eventDate} failed.",
+                Message = message,
                 SentTimestamp = DateTime.Now
             };
 
@@ -29,4 +29,5 @@ namespace EventManagementSystemMerged.Repo
             }
         }
     }
+
 }

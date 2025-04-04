@@ -1,10 +1,8 @@
-﻿
-using EventManagementSystem_Merged_.DTO_s;
+﻿using EventManagementSystem_Merged_.DTO_s;
 using EventManagementSystemMerged.Data;
 using EventManagementSystemMerged.Models;
 using EventManagementSystemMerged.Repos;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace EventManagementAPI.Controllers
 {
@@ -28,15 +26,6 @@ namespace EventManagementAPI.Controllers
             return Ok(events);
         }
 
-        //[HttpGet("add-event")]
-        //public IActionResult AddEvent()
-        //{
-        //    var categories = _context.Categories.ToList();
-        //    var locations = _context.Locations.ToList();
-        //    var users = _context.Users.ToList();
-        //    return Ok(new { categories, locations, users });
-        //}
-
         [HttpPost("add-event")]
         public IActionResult AddEvent([FromBody] EventDTO eventDetails)
         {
@@ -59,20 +48,6 @@ namespace EventManagementAPI.Controllers
             return Ok(eventDetails);
         }
 
-        //[HttpGet("edit-event/{id}")]
-        //public IActionResult EditEvent(int id)
-        //{
-        //    var eventEdit = _eventService.GetEventById(id);
-        //    if (eventEdit == null)
-        //    {
-        //        return NotFound(new { message = "Event not found" });
-        //    }
-        //    var categories = _context.Categories.ToList();
-        //    var locations = _context.Locations.ToList();
-        //    var users = _context.Users.ToList();
-        //    return Ok(new { eventEdit, categories, locations, users });
-        //}
-
         [HttpPut("edit-event")]
         public IActionResult EditEvent([FromBody] EventDTO evt)
         {
@@ -83,17 +58,6 @@ namespace EventManagementAPI.Controllers
             _eventService.UpdateEvent(evt, evt.EventID);
             return Ok(new { message = "Event updated successfully" });
         }
-
-        //[HttpGet("delete-event/{id}")]
-        //public IActionResult DeleteEvent(int id)
-        //{
-        //    var eventDelete = _eventService.GetEventById(id);
-        //    if (eventDelete == null)
-        //    {
-        //        return NotFound(new { message = "Event not found" });
-        //    }
-        //    return Ok(eventDelete);
-        //}
 
         [HttpDelete("delete-event/{id}")]
         public IActionResult DeleteConfirmation(int id)

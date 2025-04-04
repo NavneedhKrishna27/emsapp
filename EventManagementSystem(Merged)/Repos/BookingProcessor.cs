@@ -13,33 +13,80 @@ namespace EventManagementSystemMerged.Repo
             _notificationService = new NotificationServices();
         }
 
-        public void ProcessTicketBooking(int userId, int eventId, bool paymentStatus)
+        public string ProcessTicketBooking(int userId, int eventId, bool paymentStatus)
         {
-            if (paymentStatus)
+            using (var context = new AppDbContext())
             {
-                // Create a new ticket
-                var ticket = new Ticket
+                var eventEntity = context.Events.Find(eventId);
+                var location = context.Locations.Find(eventEntity.LocationID);
+
+                if (eventEntity.BookedCapacity >= location.Capacity)
                 {
-                    UserID = userId,
-                    EventID = eventId,
-                    BookingDate = DateTime.Now,
-                    Status = "Confirmed"
-                };
+                    return "Capacity is full. Cannot book the ticket for the event.";
+                }
 
-                // Save the ticket to the database
-                SaveTicket(ticket);
+                if (paymentStatus)
+                {
+                    // Create a new ticket
+                    var ticket = new Ticket
+                    {
+                        UserID = userId,
+                        EventID = eventId,
+                        BookingDate = DateTime.Now,
+                        Status = "Confirmed"
+                    };
 
-                // Send the notification
-                var eventName = GetEventName(eventId);
-                var eventDate = GetEventStartDate(eventId);
-                _notificationService.SendNotification(userId, eventId, true, eventName, eventDate);
+                    // Save the ticket to the database
+                    SaveTicket(ticket);
+
+                    // Increment the booked capacity
+                    eventEntity.BookedCapacity++;
+                    context.SaveChanges();
+
+                    // Send the notification
+                    var eventName = GetEventName(eventId);
+                    var eventDate = GetEventStartDate(eventId);
+                    _notificationService.SendNotification(userId, eventId, true, eventName, eventDate);
+
+                    return "Booking processed successfully.";
+                }
+                else
+                {
+                    // Send the notification for payment failure
+                    var eventName = GetEventName(eventId);
+                    var eventDate = GetEventStartDate(eventId);
+                    _notificationService.SendNotification(userId, eventId, false, eventName, eventDate);
+
+                    return "Payment failed. Booking not processed.";
+                }
             }
-            else
+        }
+
+        public string CancelTicketBooking(int userId, int eventId)
+        {
+            using (var context = new AppDbContext())
             {
-                // Send the notification for payment failure
+                var ticket = context.Tickets.FirstOrDefault(t => t.UserID == userId && t.EventID == eventId && t.Status == "Confirmed");
+                if (ticket == null)
+                {
+                    return "No confirmed booking found for the given user and event.";
+                }
+
+                // Update the ticket status to "Cancelled"
+                ticket.Status = "Cancelled";
+                context.SaveChanges();
+
+                // Reduce the booked capacity
+                var eventEntity = context.Events.Find(eventId);
+                eventEntity.BookedCapacity--;
+                context.SaveChanges();
+
+                // Send the cancellation notification
                 var eventName = GetEventName(eventId);
                 var eventDate = GetEventStartDate(eventId);
-                _notificationService.SendNotification(userId, eventId, false, eventName, eventDate);
+                _notificationService.SendNotification(userId, eventId, false, eventName, eventDate, "Your booking has been cancelled.");
+
+                return "Booking cancelled successfully.";
             }
         }
 
@@ -70,4 +117,5 @@ namespace EventManagementSystemMerged.Repo
             }
         }
     }
+
 }
