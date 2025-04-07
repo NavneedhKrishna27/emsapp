@@ -8,16 +8,26 @@ namespace EventManagementSystemMerged.Repo
     {
         public void SendNotification(int userId, int eventId, bool bookingStatus, string eventName, DateTime eventDate, string customMessage = null)
         {
-            var message = customMessage ?? (bookingStatus ? $"Your booking for {eventName} on {eventDate} is confirmed." : $"Your booking for {eventName} on {eventDate} failed.");
-            var notification = new Notification
+            using (var context = new AppDbContext())
             {
-                UserID = userId,
-                EventID = eventId,
-                Message = message,
-                SentTimestamp = DateTime.Now
-            };
+                var ticket = context.Tickets.FirstOrDefault(t => t.UserID == userId && t.EventID == eventId);
+                if (ticket == null || ticket.Status == "Cancelled")
+                {
+                    
+                    return;
+                }
 
-            SaveNotification(notification);
+                var message = customMessage ?? (bookingStatus ? $"Your booking for {eventName} on {eventDate} is confirmed." : $"Your booking for {eventName} on {eventDate} failed.");
+                var notification = new Notification
+                {
+                    UserID = userId,
+                    EventID = eventId,
+                    Message = message,
+                    SentTimestamp = DateTime.Now
+                };
+
+                SaveNotification(notification);
+            }
         }
 
         private void SaveNotification(Notification notification)
@@ -29,5 +39,6 @@ namespace EventManagementSystemMerged.Repo
             }
         }
     }
+
 
 }

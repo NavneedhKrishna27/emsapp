@@ -8,6 +8,8 @@ C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\b
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\EventManagementAPI.pdb
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\JWT.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
@@ -34,6 +36,7 @@ C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\b
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -73,6 +76,7 @@ C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\o
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.csproj.CoreCompileInputs.cache
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.sourcelink.json
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\scopedcss\bundle\EventManagementAPI.styles.css
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\staticwebassets.development.json
@@ -90,4 +94,3 @@ C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\o
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.pdb
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.genruntimeconfig.cache
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\ref\EventManagementAPI.dll
-C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.sourcelink.json

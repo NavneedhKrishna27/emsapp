@@ -1,83 +1,75 @@
-﻿using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace EventManagementSystem_Merged_.Repos
+using EventManagementSystemMerged.Data;
+using EventManagementSystemMerged.Models;
+
+namespace EventManagement_Merged_.Repos
 {
     public class UserService
     {
-        private string connectionString = "Server=localhost;Database=EventManagementSystemMerged1;Trusted_Connection=True;TrustServerCertificate=True";
+        private readonly AppDbContext _context;
 
-        public DataTable GetAllUsers()
+        public UserService(AppDbContext context)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                SqlCommand cmd = new SqlCommand("SELECT * FROM [Users] WHERE IsDelete = 0", conn);
-                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                adapter.Fill(dt);
-                return dt;
-            }
+            _context = context;
+        }
+        public List<User> GetAllUsers()
+        {
+            return _context.Users.Where(u => !u.IsDelete).ToList();
+        }
+        public User? GetUserById(int id)
+        {
+            return _context.Users.FirstOrDefault(u => u.UserID == id && !u.IsDelete);
+        }
+        public List<User> GetUsersByType(string userType)
+        {
+            return _context.Users
+                .Where(u => u.UserType.ToLower() == userType.ToLower() && !u.IsDelete)
+                .ToList();
+        }
+        public bool RegisterUser(User user)
+        {
+            if (_context.Users.Any(u => u.Email == user.Email)) return false;
+
+            _context.Users.Add(user);
+            _context.SaveChanges();
+            return true;
+        }
+        public User? Login(string email, string password)
+        {
+            return _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password && !u.IsDelete);
+        }
+        public bool UpdateUser(int id, string name, string contactNumber, string userType)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.UserID == id);
+            if (user == null) return false;
+
+            user.Name = name;
+            user.ContactNumber = contactNumber;
+            user.UserType = userType;
+
+            _context.SaveChanges();
+            return true;
         }
 
-        public void AddUser(string name, string email, string password, string contactNumber, string userType)
+        public bool DeleteUser(int id)
         {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                SqlCommand cmd = new SqlCommand("INSERT INTO [Users] (Name, Email, Password, ContactNumber, UserType, IsDelete) VALUES (@Name, @Email, @Password, @ContactNumber, @UserType, 0)", conn);
-                cmd.Parameters.AddWithValue("@Name", name);
-                cmd.Parameters.AddWithValue("@Email", email);
-                cmd.Parameters.AddWithValue("@Password", password);
-                cmd.Parameters.AddWithValue("@ContactNumber", contactNumber);
-                cmd.Parameters.AddWithValue("@UserType", userType);
-                conn.Open();
-                cmd.ExecuteNonQuery();
-            }
+            var user = _context.Users.FirstOrDefault(u => u.UserID == id);
+            if (user == null) return false;
+
+            user.IsDelete = true;
+            _context.SaveChanges();
+            return true;
+        }
+        public bool RecoverUser(int id)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.UserID == id && u.IsDelete == true);
+            if (user == null) return false;
+
+            user.IsDelete = false;
+            _context.SaveChanges();
+            return true;
         }
 
-        public void UpdateUser(int userId, string name, string email, string password, string contactNumber, string userType)
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                SqlCommand cmd = new SqlCommand("UPDATE [Users] SET Name = @Name, Email = @Email, Password = @Password, ContactNumber = @ContactNumber, UserType = @UserType WHERE UserID = @UserID", conn);
-                cmd.Parameters.AddWithValue("@UserID", userId);
-                cmd.Parameters.AddWithValue("@Name", name);
-                cmd.Parameters.AddWithValue("@Email", email);
-                cmd.Parameters.AddWithValue("@Password", password);
-                cmd.Parameters.AddWithValue("@ContactNumber", contactNumber);
-                cmd.Parameters.AddWithValue("@UserType", userType);
-                conn.Open();
-                cmd.ExecuteNonQuery();
-            }
-        }
-
-        public void DeleteUser(int userId)
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                SqlCommand cmd = new SqlCommand("UPDATE [Users] SET IsDelete = 1 WHERE UserID = @UserID", conn);
-                cmd.Parameters.AddWithValue("@UserID", userId);
-                conn.Open();
-                cmd.ExecuteNonQuery();
-            }
-        }
-
-        public DataTable GetUserById(int userId)
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                SqlCommand cmd = new SqlCommand("SELECT * FROM [Users] WHERE UserID = @UserID AND IsDelete = 0", conn);
-                cmd.Parameters.AddWithValue("@UserID", userId);
-                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                adapter.Fill(dt);
-                return dt;
-            }
-        }
     }
 }
-

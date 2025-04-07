@@ -62,7 +62,6 @@ namespace EventManagementSystemMerged.Repos
 
                     context.SaveChanges();
 
-                    // Send notifications if the date has changed
                     if (isDateChanged)
                     {
                         NotifyUsersOfDateChange(existingEvent.EventID, existingEvent.StartDate);

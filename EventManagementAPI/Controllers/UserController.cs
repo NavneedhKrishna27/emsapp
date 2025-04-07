@@ -1,95 +1,75 @@
-﻿using EventManagementSystem_Merged_.DTO_s;
-using EventManagementSystem_Merged_.Repos;
-using EventManagementSystemMerged.Models;
+﻿
+using EventManagement_Merged_.Repos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
-
-namespace EventManagementAPI.Controllers
+namespace EventManagement_Merged_.Controllers
 {
-    public class UserController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class UserController : ControllerBase
     {
-        private readonly UserService _userBLL = new UserService();
+        private readonly UserService _userService;
 
-        // GET: api/User
-        [HttpGet]
-        [Route("api/users")]
-        public ActionResult<IEnumerable<object>> GetAllUsers()
+        public UserController(UserService userService)
         {
-            var users = _userBLL.GetAllUsers();
-            List<object> userList = new List<object>();
-
-            foreach (DataRow row in users.Rows)
-            {
-                userList.Add(new
-                {
-                    UserID = row["UserID"],
-                    Name = row["Name"],
-                    Email = row["Email"],
-                    Password = row["Password"],
-                    ContactNumber = row["ContactNumber"],
-                    UserType = row["UserType"],
-                    IsDelete = row["IsDelete"]
-                });
-            }
-
-            return Ok(userList);
+            _userService = userService;
         }
 
-        // GET: api/User/5
+        // 🔐 Get user by ID (Authorized)
+        [Authorize]
         [HttpGet("{id}")]
-        public ActionResult<object> GetUser(int id)
+        public IActionResult GetUserById(int id)
         {
-            var user = _userBLL.GetUserById(id);
-            if (user.Rows.Count > 0)
-            {
-                DataRow row = user.Rows[0];
-                var userObj = new
-                {
-                    UserID = row["UserID"],
-                    Name = row["Name"],
-                    Email = row["Email"],
-                    Password = row["Password"],
-                    ContactNumber = row["ContactNumber"],
-                    UserType = row["UserType"],
-                    IsDelete = row["IsDelete"]
-                };
-                return Ok(userObj);
-            }
-            else
-            {
-                return NotFound();
-            }
+            var user = _userService.GetUserById(id);
+            if (user == null) return NotFound();
+            return Ok(user);
         }
 
-        // POST: api/User
-        [HttpPost]
-        [Route("api/users")]
-        public ActionResult<object> CreateUser([FromBody] UserDTO user)
-        {
-            _userBLL.AddUser(user.Name, user.Email, user.Password, user.ContactNumber, user.UserType);
-            return CreatedAtAction(nameof(GetUser), new { id = user.UserID }, user);
-        }
-
-
-        // PUT: api/User/5
+        // 🔐 Update user (Authorized)
+        [Authorize]
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(int id, [FromBody] UserDTO user)
+        public IActionResult UpdateUser(int id, [FromBody] UpdateUserDto userDto)
         {
-            if (id != user.UserID)
-            {
-                return BadRequest();
-            }
-
-            _userBLL.UpdateUser(id, user.Name, user.Email, user.Password, user.ContactNumber, user.UserType);
-            return NoContent();
+            bool success = _userService.UpdateUser(id, userDto.Name, userDto.ContactNumber, userDto.UserType);
+            if (!success) return NotFound();
+            return Ok(new { message = "User updated successfully." });
         }
 
-        // DELETE: api/User/5
+        // GET by user type (no auth restriction)
+        [HttpGet("type/{userType}")]
+        public IActionResult GetUsersByType(string userType)
+        {
+            var users = _userService.GetUsersByType(userType);
+            return Ok(users);
+        }
+
+        // Delete user (optional auth if needed)
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)
         {
-            _userBLL.DeleteUser(id);
-            return NoContent();
+            bool deleted = _userService.DeleteUser(id);
+            if (!deleted) return NotFound();
+            return Ok(new { message = "User deleted successfully." });
         }
+        [Authorize]
+        [HttpPut("recover/{id}")]
+        public IActionResult RecoverUser(int id)
+        {
+            bool recovered = _userService.RecoverUser(id);
+            if (!recovered) return NotFound();
+            return Ok(new { message = "User recovered successfully." });
+        }
+
+
+        // Local DTO for update
+        public class UpdateUserDto
+        {
+            public string Name { get; set; }
+            public string ContactNumber { get; set; }
+            public string UserType { get; set; }
+        }
+
+
     }
 }

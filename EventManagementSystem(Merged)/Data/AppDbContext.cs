@@ -59,12 +59,12 @@ namespace EventManagementSystemMerged.Data
                 entity.HasOne<Event>()
                       .WithMany(e => e.Tickets)
                       .HasForeignKey(t => t.EventID)
-                      .OnDelete(DeleteBehavior.NoAction); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.NoAction); 
 
                 entity.HasOne<User>()
                       .WithMany(u => u.Tickets)
                       .HasForeignKey(t => t.UserID)
-                      .OnDelete(DeleteBehavior.NoAction); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.NoAction); 
             });
             modelBuilder.Entity<Notification>(entity =>
             {
@@ -74,12 +74,12 @@ namespace EventManagementSystemMerged.Data
                 entity.HasOne<User>()
                       .WithMany(u => u.Notifications)
                       .HasForeignKey(n => n.UserID)
-                      .OnDelete(DeleteBehavior.NoAction); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.NoAction); 
 
                 entity.HasOne<Event>()
                       .WithMany(e => e.Notifications)
                       .HasForeignKey(n => n.EventID)
-                      .OnDelete(DeleteBehavior.NoAction); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.NoAction); 
             });
             modelBuilder.Entity<Feedback>(entity =>
             {
@@ -89,12 +89,12 @@ namespace EventManagementSystemMerged.Data
                 entity.HasOne<Event>()
                       .WithMany(e => e.Feedbacks)
                       .HasForeignKey(f => f.EventID)
-                      .OnDelete(DeleteBehavior.Restrict); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.Restrict); 
 
                 entity.HasOne<User>()
                       .WithMany(u => u.Feedbacks)
                       .HasForeignKey(f => f.UserID)
-                      .OnDelete(DeleteBehavior.Restrict); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.Restrict); 
             });
             modelBuilder.Entity<Payment>(entity =>
             {
@@ -105,11 +105,11 @@ namespace EventManagementSystemMerged.Data
                 entity.HasOne<User>()
                       .WithMany(u => u.Payments)
                       .HasForeignKey(p => p.UserID)
-                      .OnDelete(DeleteBehavior.NoAction); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.NoAction); 
                 entity.HasOne<Event>()
                       .WithMany(e => e.Payments)
                       .HasForeignKey(p => p.EventID)
-                      .OnDelete(DeleteBehavior.NoAction); // Specify DeleteBehavior
+                      .OnDelete(DeleteBehavior.NoAction); 
             });
         }
     }

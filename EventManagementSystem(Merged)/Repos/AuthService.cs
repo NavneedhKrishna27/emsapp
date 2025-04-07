@@ -1,42 +1,50 @@
 ﻿
 using EventManagementSystemMerged.Data;
 using EventManagementSystemMerged.Models;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace EventManagementSystemMerged.Repos
+namespace EventManagement_Merged_.Repos
 {
     public class AuthService
     {
-        public User Register(User user)
+        private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration;
+
+        public AuthService(AppDbContext context, IConfiguration configuration)
         {
-            using (var context = new AppDbContext())
-            {
-                context.Users.Add(user);
-                context.SaveChanges();
-                return user;
-            }
+            _context = context;
+            _configuration = configuration;
         }
 
-        public User Login(string email, string password)
+        public string GenerateToken(User user)
         {
-            using (var context = new AppDbContext())
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]);
+            var tokenDescriptor = new SecurityTokenDescriptor
             {
-                return context.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
-            }
+                Subject = new ClaimsIdentity(new[]
+                {
+                new Claim("UserID", user.UserID.ToString()),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.UserType)
+            }),
+                Expires = DateTime.UtcNow.AddHours(5),
+                SigningCredentials = new SigningCredentials(
+                    new SymmetricSecurityKey(key),
+                    SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
 
-        public bool IsAdmin(int userId)
+        public User Authenticate(string email, string password)
         {
-            using (var context = new AppDbContext())
-            {
-                var user = context.Users.Find(userId);
-                return user != null && user.UserType == "Admin";
-            }
+            return _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password && !u.IsDelete);
         }
     }
+
 }

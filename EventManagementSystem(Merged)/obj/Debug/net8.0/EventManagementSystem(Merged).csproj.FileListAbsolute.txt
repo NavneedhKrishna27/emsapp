@@ -7,9 +7,9 @@ C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSyste
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).AssemblyInfoInputs.cache
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).AssemblyInfo.cs
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).csproj.CoreCompileInputs.cache
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).sourcelink.json
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\refint\EventManagementSystem(Merged).dll
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).pdb
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).genruntimeconfig.cache
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\ref\EventManagementSystem(Merged).dll
-C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementSystem(Merged)\obj\Debug\net8.0\EventManagementSystem(Merged).sourcelink.json
