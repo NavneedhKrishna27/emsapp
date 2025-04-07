@@ -14,8 +14,6 @@ namespace EventManagement_Merged_.Controllers
         {
             _userService = userService;
         }
-
-        // 🔐 Get user by ID (Authorized)
         [Authorize]
         [HttpGet("{id}")]
         public IActionResult GetUserById(int id)
@@ -25,7 +23,6 @@ namespace EventManagement_Merged_.Controllers
             return Ok(user);
         }
 
-        // 🔐 Update user (Authorized)
         [Authorize]
         [HttpPut("{id}")]
         public IActionResult UpdateUser(int id, [FromBody] UpdateUserDto userDto)
@@ -35,7 +32,7 @@ namespace EventManagement_Merged_.Controllers
             return Ok(new { message = "User updated successfully." });
         }
 
-        // GET by user type (no auth restriction)
+        [Authorize]
         [HttpGet("type/{userType}")]
         public IActionResult GetUsersByType(string userType)
         {
@@ -43,7 +40,7 @@ namespace EventManagement_Merged_.Controllers
             return Ok(users);
         }
 
-        // Delete user (optional auth if needed)
+        
         [Authorize]
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)
@@ -61,8 +58,6 @@ namespace EventManagement_Merged_.Controllers
             return Ok(new { message = "User recovered successfully." });
         }
 
-
-        // Local DTO for update
         public class UpdateUserDto
         {
             public string Name { get; set; }
