@@ -76,5 +76,55 @@ namespace EventManagementAPI.Controllers
             }
             return Ok(eventDetails);
         }
+
+        [HttpGet("{eventId}/users")]
+        public IActionResult GetUsersForEvent(int eventId)
+        {
+            var users = _eventService.GetUsersForEvent(eventId);
+            return Ok(users);
+        }
+
+        [HttpGet("{eventId}/tickets-sold")]
+        public IActionResult GetTicketsSoldForEvent(int eventId)
+        {
+            var ticketsSold = _eventService.GetTicketsSoldForEvent(eventId);
+            return Ok(ticketsSold);
+        }
+
+        [HttpGet("{eventId}/revenue")]
+        public IActionResult GetRevenueForEvent(int eventId)
+        {
+            var revenue = _eventService.GetRevenueForEvent(eventId);
+            return Ok(revenue);
+        }
+
+        [HttpGet("{eventId}/status")]
+        public IActionResult GetEventStatus(int eventId)
+        {
+            var status = _eventService.GetEventStatus(eventId);
+            return Ok(status);
+        }
+
+        [HttpGet("completed")]
+        public IActionResult GetCompletedEvents()
+        {
+            var events = _eventService.GetCompletedEvents();
+            return Ok(events);
+        }
+
+        [HttpGet("upcoming")]
+        public IActionResult GetUpcomingEvents()
+        {
+            var events = _eventService.GetUpcomingEvents();
+            return Ok(events);
+        }
+
+        [HttpGet("current")]
+        public IActionResult GetCurrentEvents()
+        {
+            var events = _eventService.GetCurrentEvents();
+            return Ok(events);
+        }
+
     }
 }

@@ -1,7 +1,9 @@
 ﻿
 using EventManagement_Merged_.Repos;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
 namespace EventManagement_Merged_.Controllers
 {
     [ApiController]
@@ -14,16 +16,44 @@ namespace EventManagement_Merged_.Controllers
         {
             _userService = userService;
         }
-        [Authorize]
+        //[Authorize]
+        //[HttpGet("{id}")]
+        //public IActionResult GetUserById(int id)
+        //{
+        //    var user = _userService.GetUserById(id);
+        //    if (user == null) return NotFound();
+        //    return Ok(user);
+        //}
+
+        private int? GetUserIdFromToken()
+        {
+            var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            var jwtToken = new JwtSecurityTokenHandler().ReadJwtToken(token);
+            var userIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "UserID");
+       
+
+            if (userIdClaim == null)
+            {
+                return null;
+            }
+
+            return int.Parse(userIdClaim.Value);
+        }
+
+        [Authorize(Policy="UserOnly")]
         [HttpGet("{id}")]
         public IActionResult GetUserById(int id)
         {
+            var userIdFromToken = GetUserIdFromToken();
+            if (userIdFromToken != id) return Forbid();
+
             var user = _userService.GetUserById(id);
             if (user == null) return NotFound();
             return Ok(user);
         }
 
-        [Authorize]
+
+        [Authorize(Policy = "UserOnly")]
         [HttpPut("{id}")]
         public IActionResult UpdateUser(int id, [FromBody] UpdateUserDto userDto)
         {
@@ -32,7 +62,7 @@ namespace EventManagement_Merged_.Controllers
             return Ok(new { message = "User updated successfully." });
         }
 
-        [Authorize]
+        [Authorize(Roles="Admin")]
         [HttpGet("type/{userType}")]
         public IActionResult GetUsersByType(string userType)
         {
@@ -40,8 +70,8 @@ namespace EventManagement_Merged_.Controllers
             return Ok(users);
         }
 
-        
-        [Authorize]
+
+        [Authorize(Policy = "UserOnly")]
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)
         {
@@ -49,7 +79,7 @@ namespace EventManagement_Merged_.Controllers
             if (!deleted) return NotFound();
             return Ok(new { message = "User deleted successfully." });
         }
-        [Authorize]
+        [Authorize(Policy = "UserOnly")]
         [HttpPut("recover/{id}")]
         public IActionResult RecoverUser(int id)
         {

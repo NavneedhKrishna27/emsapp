@@ -41,6 +41,22 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = false
     };
 });
+    builder.Services.AddAuthorization(options =>
+    {
+        options.AddPolicy("SuperAdminOnly", policy => policy.RequireRole("SuperAdmin"));
+    });
+    builder.Services.AddAuthorization(options =>
+    {
+        options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+    });
+    builder.Services.AddAuthorization(options =>
+    {
+        options.AddPolicy("OrganizerOnly", policy => policy.RequireRole("Organizer"));
+    });
+    builder.Services.AddAuthorization(options =>
+    {
+        options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
+    });
 
 var app = builder.Build();
 

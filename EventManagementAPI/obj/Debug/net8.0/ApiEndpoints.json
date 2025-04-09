@@ -32,6 +32,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EventManagement_Merged_.Controllers.AuthController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Auth/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "EventManagement_Merged_.Controllers.AuthController\u002BRegisterUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagement_Merged_.Controllers.AuthController",
+    "Method": "RegisterSuperAdmin",
+    "RelativePath": "api/Auth/register-superadmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "EventManagement_Merged_.Controllers.AuthController\u002BRegisterUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EventManagementSystemMerged.Controllers.BookingController",
     "Method": "BookTicket",
     "RelativePath": "api/Booking/book",
@@ -65,6 +97,70 @@
   },
   {
     "ContainingType": "EventManagementAPI.Controllers.EventController",
+    "Method": "GetRevenueForEvent",
+    "RelativePath": "api/Event/{eventId}/revenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.EventController",
+    "Method": "GetEventStatus",
+    "RelativePath": "api/Event/{eventId}/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.EventController",
+    "Method": "GetTicketsSoldForEvent",
+    "RelativePath": "api/Event/{eventId}/tickets-sold",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.EventController",
+    "Method": "GetUsersForEvent",
+    "RelativePath": "api/Event/{eventId}/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.EventController",
     "Method": "AddEvent",
     "RelativePath": "api/Event/add-event",
     "HttpMethod": "POST",
@@ -77,6 +173,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.EventController",
+    "Method": "GetCompletedEvents",
+    "RelativePath": "api/Event/completed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.EventController",
+    "Method": "GetCurrentEvents",
+    "RelativePath": "api/Event/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -131,6 +247,16 @@
     "ContainingType": "EventManagementAPI.Controllers.EventController",
     "Method": "Index",
     "RelativePath": "api/Event/index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagementAPI.Controllers.EventController",
+    "Method": "GetUpcomingEvents",
+    "RelativePath": "api/Event/upcoming",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

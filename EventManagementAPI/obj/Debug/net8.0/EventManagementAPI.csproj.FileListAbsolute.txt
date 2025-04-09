@@ -94,3 +94,16 @@ C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\o
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.pdb
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\EventManagementAPI.genruntimeconfig.cache
 C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\obj\Debug\net8.0\ref\EventManagementAPI.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\MailKit.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\MimeKit.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\SendGrid.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\StarkbankEcdsa.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\2392827\source\repos\EventManagementSystemComplete\EventManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
