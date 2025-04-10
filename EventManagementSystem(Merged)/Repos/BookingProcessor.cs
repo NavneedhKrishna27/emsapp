@@ -1,6 +1,7 @@
 ﻿using EventManagementSystemMerged.Data;
 using EventManagementSystemMerged.Models;
 using System;
+using System.Linq;
 
 namespace EventManagementSystemMerged.Repo
 {
@@ -13,17 +14,27 @@ namespace EventManagementSystemMerged.Repo
             _notificationService = new NotificationServices();
         }
 
-        public string ProcessTicketBooking(int userId, int eventId, bool paymentStatus)
+        public string ProcessTicketBooking(int userId, int eventId)
         {
             using (var context = new AppDbContext())
             {
                 var eventEntity = context.Events.Find(eventId);
                 var location = context.Locations.Find(eventEntity.LocationID);
 
+                // Check if the event is already completed
+                if (DateTime.Now > eventEntity.EndDate)
+                {
+                    return "Cannot book the event as it is already completed.";
+                }
+
                 if (eventEntity.BookedCapacity >= location.Capacity)
                 {
                     return "Capacity is full. Cannot book the ticket for the event.";
                 }
+
+                // Fetch payment details based on EventID
+                decimal amount = GetEventPrice(eventId);
+                bool paymentStatus = true; // Assuming payment is successful for simplicity
 
                 if (paymentStatus)
                 {
@@ -36,8 +47,19 @@ namespace EventManagementSystemMerged.Repo
                         Status = "Confirmed"
                     };
 
-                    // Save the ticket to the database
-                    SaveTicket(ticket);
+                    // Create a new payment
+                    var payment = new Payment
+                    {
+                        UserID = userId,
+                        EventID = eventId,
+                        Amount = amount,
+                        PaymentDate = DateTime.Now,
+                        PaymentStatus = true
+                    };
+
+                    // Save the ticket and payment to the database
+                    context.Tickets.Add(ticket);
+                    context.Payments.Add(payment);
 
                     // Increment the booked capacity
                     eventEntity.BookedCapacity++;
@@ -74,6 +96,15 @@ namespace EventManagementSystemMerged.Repo
 
                 // Update the ticket status to "Cancelled"
                 ticket.Status = "Cancelled";
+
+                // Update the payment status to "Refund" and amount to 0
+                var payment = context.Payments.FirstOrDefault(p => p.UserID == userId && p.EventID == eventId && p.PaymentStatus == true);
+                if (payment != null)
+                {
+                    payment.PaymentStatus = false;
+                    payment.Amount = 0;
+                }
+
                 context.SaveChanges();
 
                 // Reduce the booked capacity
@@ -90,12 +121,12 @@ namespace EventManagementSystemMerged.Repo
             }
         }
 
-        private void SaveTicket(Ticket ticket)
+        private decimal GetEventPrice(int eventId)
         {
             using (var context = new AppDbContext())
             {
-                context.Tickets.Add(ticket);
-                context.SaveChanges();
+                var eventEntity = context.Events.Find(eventId);
+                return eventEntity?.Price ?? 0;
             }
         }
 
@@ -117,5 +148,4 @@ namespace EventManagementSystemMerged.Repo
             }
         }
     }
-
 }

@@ -48,22 +48,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EventManagement_Merged_.Controllers.AuthController",
-    "Method": "RegisterSuperAdmin",
-    "RelativePath": "api/Auth/register-superadmin",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "EventManagement_Merged_.Controllers.AuthController\u002BRegisterUserDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "EventManagementSystemMerged.Controllers.BookingController",
     "Method": "BookTicket",
     "RelativePath": "api/Booking/book",
@@ -638,6 +622,22 @@
     "Method": "DeleteUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagement_Merged_.Controllers.UserController",
+    "Method": "GetUserHistory",
+    "RelativePath": "api/User/{id}/history",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

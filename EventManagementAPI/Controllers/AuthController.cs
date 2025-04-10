@@ -88,31 +88,30 @@ namespace EventManagement_Merged_.Controllers
             return Ok("Admin registered successfully.");
         }
 
-        [HttpPost("register-superadmin")]
-        public IActionResult RegisterSuperAdmin([FromBody] RegisterUserDTO model)
-        {
-            // Ensure only superAdmins can be created through this endpoint
-            if (model.UserType != "SuperAdmin")
-            {
-                return BadRequest("This endpoint is only for creating superAdmin accounts.");
-            }
+        //[HttpPost("register-superadmin")]
+        //public IActionResult RegisterSuperAdmin([FromBody] RegisterUserDTO model)
+        //{
+        //    if (model.UserType != "SuperAdmin")
+        //    {
+        //        return BadRequest("This endpoint is only for creating superAdmin accounts.");
+        //    }
 
-            var user = new User
-            {
-                Name = model.Name,
-                Email = model.Email,
-                Password = model.Password,
-                ContactNumber = model.ContactNumber,
-                UserType = model.UserType
-            };
+        //    var user = new User
+        //    {
+        //        Name = model.Name,
+        //        Email = model.Email,
+        //        Password = model.Password,
+        //        ContactNumber = model.ContactNumber,
+        //        UserType = model.UserType
+        //    };
 
-            var result = _authService.RegisterUser(user);
-            if (result != null)
-            {
-                return BadRequest(result);
-            }
-            return Ok("SuperAdmin registered successfully.");
-        }
+        //    var result = _authService.RegisterUser(user);
+        //    if (result != null)
+        //    {
+        //        return BadRequest(result);
+        //    }
+        //    return Ok("SuperAdmin registered successfully.");
+        //}
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginDTO model)
