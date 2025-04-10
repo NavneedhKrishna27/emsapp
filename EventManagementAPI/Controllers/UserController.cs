@@ -79,6 +79,67 @@ namespace EventManagement_Merged_.Controllers
             return Ok(userDtos);
         }
 
+        [Authorize(Policy = "OrganizerOnly")]
+        [HttpGet("organizer-history/{organizerId}")]
+        public IActionResult GetOrganizerHistory(int organizerId)
+        {
+            var userIdFromToken = GetUserIdFromToken();
+            if (userIdFromToken == null) return Forbid();
+
+            var user = _userService.GetUserById(userIdFromToken.Value);
+            if (user == null || (user.UserType != "Admin" && user.UserID != organizerId)) return Forbid();
+
+            var events = _userService.GetEventsByOrganizer(organizerId);
+            var eventDetails = events.Select(e => new
+            {
+                e.EventID,
+                e.Name,
+                Participants = _userService.GetParticipantsCount(e.EventID),
+                Revenue = _userService.GetRevenue(e.EventID),
+                ParticipantsDetails = _userService.GetParticipants(e.EventID).Select(p => new
+                {
+                    p.UserID,
+                    p.Name,
+                    p.Email
+                }).ToList()
+            }).ToList();
+
+            var topRevenueEvent = eventDetails.OrderByDescending(e => e.Revenue).FirstOrDefault();
+           
+            var history = new
+            {
+                OrganizerID = organizerId,
+                Events = eventDetails,
+                TopRevenueEvent = topRevenueEvent,
+               
+            };
+
+            return Ok(history);
+        }
+
+
+        [Authorize(Policy = "OrganizerOnly")]
+        [HttpGet("my-event-users")]
+        public IActionResult GetUsersByOrganizer()
+        {
+            var organizerId = GetUserIdFromToken();
+            if (organizerId == null) return Forbid();
+
+            var users = _userService.GetUsersByOrganizer(organizerId.Value);
+            var userDtos = users.Select(u => new
+            {
+                u.UserID,
+                u.Name,
+                u.Email,
+                u.ContactNumber,
+                u.UserType
+            });
+
+            return Ok(userDtos);
+        }
+
+
+
         [Authorize(Policy = "UserOnly")]
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)

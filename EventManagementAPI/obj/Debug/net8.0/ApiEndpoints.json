@@ -651,6 +651,32 @@
   },
   {
     "ContainingType": "EventManagement_Merged_.Controllers.UserController",
+    "Method": "GetUsersByOrganizer",
+    "RelativePath": "api/User/my-event-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagement_Merged_.Controllers.UserController",
+    "Method": "GetOrganizerHistory",
+    "RelativePath": "api/User/organizer-history/{organizerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventManagement_Merged_.Controllers.UserController",
     "Method": "RecoverUser",
     "RelativePath": "api/User/recover/{id}",
     "HttpMethod": "PUT",

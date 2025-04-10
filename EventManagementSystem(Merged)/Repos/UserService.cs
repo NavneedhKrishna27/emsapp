@@ -41,19 +41,71 @@ namespace EventManagement_Merged_.Repos
             return user;
         }
 
-        public bool RegisterUser(User user)
+        public List<Event> GetEventsByOrganizer(int organizerId)
         {
-            if (_context.Users.Any(u => u.Email == user.Email)) return false;
-
-            _context.Users.Add(user);
-            _context.SaveChanges();
-            return true;
+            return _context.Events.Where(e => e.UserID == organizerId).ToList();
         }
 
-        public User? Login(string email, string password)
+        public int GetParticipantsCount(int eventId)
         {
-            return _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password && !u.IsDelete);
+            return _context.Tickets.Count(t => t.EventID == eventId);
         }
+
+        public List<User> GetParticipants(int eventId)
+        {
+            var userIds = _context.Tickets
+            .Where(t => t.EventID == eventId)
+            .Select(t => t.UserID)
+            .Distinct()
+            .ToList();
+
+            return _context.Users
+            .Where(u => userIds.Contains(u.UserID) && !u.IsDelete)
+            .ToList();
+        }
+
+        public decimal GetRevenue(int eventId)
+        {
+            return _context.Payments
+            .Where(p => p.EventID == eventId && p.PaymentStatus)
+            .Sum(p => p.Amount);
+        }
+
+
+
+        public List<User> GetUsersByOrganizer(int organizerId)
+        {
+            var eventIds = _context.Events
+            .Where(e => e.UserID == organizerId)
+            .Select(e => e.EventID)
+            .ToList();
+
+            var userIds = _context.Tickets
+            .Where(t => eventIds.Contains(t.EventID))
+            .Select(t => t.UserID)
+            .Distinct()
+            .ToList();
+
+            return _context.Users
+            .Where(u => userIds.Contains(u.UserID) && !u.IsDelete)
+            .ToList();
+        }
+
+
+
+        //public bool RegisterUser(User user)
+        //{
+        //    if (_context.Users.Any(u => u.Email == user.Email)) return false;
+
+        //    _context.Users.Add(user);
+        //    _context.SaveChanges();
+        //    return true;
+        //}
+
+        //public User? Login(string email, string password)
+        //{
+        //    return _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password && !u.IsDelete);
+        //}
 
         public bool UpdateUser(int id, string name, string contactNumber, string userType)
         {

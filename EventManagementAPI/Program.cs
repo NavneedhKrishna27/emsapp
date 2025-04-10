@@ -58,6 +58,7 @@ builder.Services.AddAuthentication(options =>
         options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
     });
 
+
 var app = builder.Build();
 
 

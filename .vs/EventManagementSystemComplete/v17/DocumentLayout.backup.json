@@ -11,12 +11,24 @@
       "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -41,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\bookingprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,34 +142,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 310,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\TicketController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwCsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:21:16.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EventManagementAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T05:16:41.946Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -178,14 +152,14 @@
               "RelativeDocumentMoniker": "EventManagementAPI\\Program.cs",
               "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Program.cs",
               "RelativeToolTip": "EventManagementAPI\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T16:24:38.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EventManagementAPI\\appsettings.json",
@@ -193,12 +167,11 @@
               "RelativeToolTip": "EventManagementAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-06T16:53:04.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T16:53:04.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\EventController.cs",
@@ -206,12 +179,11 @@
               "RelativeToolTip": "EventManagementAPI\\Controllers\\EventController.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAmwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:17:03.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:17:03.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\BookingController.cs",
@@ -230,7 +202,7 @@
               "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "EventManagementAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T16:27:36.582Z",
               "EditorCaption": ""
@@ -243,14 +215,64 @@
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\UserService.cs",
               "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\UserService.cs",
               "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\UserService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAuwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T15:36:56.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAqwHYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:27:18.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwEIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:35:50.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EventManagementAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T05:16:41.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwCsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:21:16.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\PaymentController.cs",
@@ -258,12 +280,11 @@
               "RelativeToolTip": "EventManagementAPI\\Controllers\\PaymentController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAA8wCwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:55:51.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T05:55:51.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LocationController.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\LocationController.cs",
               "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\LocationController.cs",
@@ -271,12 +292,11 @@
               "RelativeToolTip": "EventManagementAPI\\Controllers\\LocationController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAuwD8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:02:42.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T12:02:42.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "FeedbackController.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\FeedbackController.cs",
               "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\FeedbackController.cs",
@@ -284,34 +304,7 @@
               "RelativeToolTip": "EventManagementAPI\\Controllers\\FeedbackController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAmwCsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T15:39:42.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAqwHcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:27:18.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwEcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:50.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T15:39:42.573Z"
             },
             {
               "$type": "Document",
@@ -323,8 +316,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\BookingProcessor.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAmwI8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:54.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:35:54.69Z"
             },
             {
               "$type": "Document",
@@ -336,8 +328,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\EventService.cs",
               "ViewState": "AgIAAOkAAAAAAAAAAAAuwP0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:57.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:35:57.916Z"
             },
             {
               "$type": "Document",
@@ -349,8 +340,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAqwDEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:36:23.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:36:23.646Z"
             },
             {
               "$type": "Document",
@@ -362,8 +352,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAqwFYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:36:38.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:36:38.037Z"
             },
             {
               "$type": "Document",
@@ -375,8 +364,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\PaymentService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAqwCoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:36:47.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:36:47.195Z"
             },
             {
               "$type": "Document",
@@ -388,8 +376,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\TicketService.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAmwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:36:51.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:36:51.302Z"
             },
             {
               "$type": "Document",
@@ -401,8 +388,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\Ticket.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAA0wAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:44.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:35:44.107Z"
             },
             {
               "$type": "Document",
@@ -414,8 +400,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\DTO\u0027s\\EventDTO.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA9wBQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:10.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:35:10.179Z"
             },
             {
               "$type": "Document",
@@ -427,8 +412,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\DTO\u0027s\\UserDTO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:14.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:35:14.409Z"
             },
             {
               "$type": "Document",
@@ -440,8 +424,7 @@
               "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\User.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAwwA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:47.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:35:47.073Z"
             },
             {
               "$type": "Document",

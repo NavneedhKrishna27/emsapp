@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventManagementSystem(Merged)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc69b85bf0f2d887644c2b00c513af4de97a9da1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b7f73cfb738c3b82b99ed75952253e7c97e94e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventManagementSystem(Merged)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventManagementSystem(Merged)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
