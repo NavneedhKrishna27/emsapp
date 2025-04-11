@@ -36,7 +36,7 @@ namespace EventManagement_Merged_.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register([FromBody] RegisterUserDTO model)
+        public IActionResult Register([FromForm] RegisterUserDTO model)
         {
             // Ensure only users or organizers can be created
             if (model.UserType != "User" && model.UserType != "Organizer")
@@ -114,7 +114,7 @@ namespace EventManagement_Merged_.Controllers
         //}
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginDTO model)
+        public IActionResult Login([FromForm] LoginDTO model)
         {
             var user = _authService.Authenticate(model.Email, model.Password);
             if (user == null)

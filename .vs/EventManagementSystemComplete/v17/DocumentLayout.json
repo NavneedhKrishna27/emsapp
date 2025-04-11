@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,12 +27,60 @@
       "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Migrations\\20250410110430_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventManagementSystem(Merged)\\Migrations\\20250410110430_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|solutionrelative:eventmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\bookingprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,24 +91,12 @@
       "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\repos\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\repos\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\dto\u0027s\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,20 +127,8 @@
       "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementsystem(merged)\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65D882C9-76B7-41A9-8F7E-EE847D4F82D0}|EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj|solutionrelative:eventmanagementsystem(merged)\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E70F0EB8-34B7-4000-BC6E-10D90B656FB4}|EventManagementAPI\\EventManagementAPI.csproj|c:\\users\\2392827\\source\\repos\\eventmanagementsystemcomplete\\eventmanagementapi\\eventmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -142,24 +146,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 310,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\LocationController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:02:42.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwCgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T05:55:51.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwCsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:21:16.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:27:36.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwCYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:27:18.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:29:07.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAlwD8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:36:38.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:39:42.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\EventController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:17:03.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "EventManagementAPI\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:21:52.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Program.cs",
               "RelativeDocumentMoniker": "EventManagementAPI\\Program.cs",
               "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Program.cs",
               "RelativeToolTip": "EventManagementAPI\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAuwDcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T16:24:38.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Category.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:35:16.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Feedback.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:19:41.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Ticket.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:35:44.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:36:23.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwEIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:35:50.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250410110430_1.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Migrations\\20250410110430_1.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Migrations\\20250410110430_1.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Migrations\\20250410110430_1.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Migrations\\20250410110430_1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:04:31.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\UserService.cs",
+              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\UserService.cs",
+              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\UserService.cs",
+              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\UserService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:36:56.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EventManagementAPI\\appsettings.json",
@@ -171,84 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\EventController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\EventController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAmwHgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:17:03.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAUwEIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:21:52.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:27:36.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\UserService.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\UserService.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\UserService.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\UserService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:36:56.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAqwHYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:27:18.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\AuthService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwEIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:50.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EventManagementAPI\\Properties\\launchSettings.json",
@@ -260,55 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\TicketController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\TicketController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwCsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:21:16.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA8wCwAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:55:51.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LocationController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\LocationController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\LocationController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\LocationController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\LocationController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAuwD8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:02:42.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FeedbackController.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\FeedbackController.cs",
-              "RelativeDocumentMoniker": "EventManagementAPI\\Controllers\\FeedbackController.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\Controllers\\FeedbackController.cs",
-              "RelativeToolTip": "EventManagementAPI\\Controllers\\FeedbackController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwCsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T15:39:42.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "BookingProcessor.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\BookingProcessor.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\BookingProcessor.cs",
@@ -320,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "EventService.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\EventService.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\EventService.cs",
@@ -332,31 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FeedbackService.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\FeedbackService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwDEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:36:23.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Repos\\NotificationService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAqwFYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:36:38.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\PaymentService.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\PaymentService.cs",
@@ -368,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\TicketService.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\TicketService.cs",
@@ -380,19 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Ticket.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA0wAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:44.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "EventDTO.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\DTO\u0027s\\EventDTO.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\DTO\u0027s\\EventDTO.cs",
@@ -404,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\DTO\u0027s\\UserDTO.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\DTO\u0027s\\UserDTO.cs",
@@ -416,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\User.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\User.cs",
@@ -428,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "LocationService.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Repos\\LocationService.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Repos\\LocationService.cs",
@@ -440,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Payment.cs",
@@ -452,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Notification.cs",
@@ -464,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Location.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Location.cs",
@@ -476,31 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Feedback.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Feedback.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Feedback.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\Feedback.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:19:41.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Category.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:35:16.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Models\\Event.cs",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Models\\Event.cs",
@@ -512,19 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "EventManagementSystem(Merged)\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:29:07.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "EventManagementAPI.csproj",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementAPI\\EventManagementAPI.csproj",
               "RelativeDocumentMoniker": "EventManagementAPI\\EventManagementAPI.csproj",
@@ -536,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "EventManagementSystem(Merged).csproj",
               "DocumentMoniker": "C:\\Users\\2392827\\source\\repos\\EventManagementSystemComplete\\EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj",
               "RelativeDocumentMoniker": "EventManagementSystem(Merged)\\EventManagementSystem(Merged).csproj",

@@ -11,5 +11,8 @@
         public int Rating { get; set; }
         public string Comments { get; set; }
         public DateTime SubmittedTimestamp { get; set; }
+        public int TicketID { get; set; }
+
+
     }
 }

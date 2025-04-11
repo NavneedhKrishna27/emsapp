@@ -112,12 +112,18 @@ namespace EventManagementSystem_Merged_.Migrations
                     b.Property<DateTime>("SubmittedTimestamp")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("TicketID")
+                        .HasColumnType("int");
+
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
                     b.HasKey("FeedbackID");
 
                     b.HasIndex("EventID");
+
+                    b.HasIndex("TicketID")
+                        .IsUnique();
 
                     b.HasIndex("UserID");
 
@@ -332,6 +338,12 @@ namespace EventManagementSystem_Merged_.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("EventManagementSystemMerged.Models.Ticket", null)
+                        .WithOne("Feedback")
+                        .HasForeignKey("EventManagementSystemMerged.Models.Feedback", "TicketID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
                     b.HasOne("EventManagementSystemMerged.Models.User", null)
                         .WithMany("Feedbacks")
                         .HasForeignKey("UserID")
@@ -393,6 +405,12 @@ namespace EventManagementSystem_Merged_.Migrations
                     b.Navigation("Payments");
 
                     b.Navigation("Tickets");
+                });
+
+            modelBuilder.Entity("EventManagementSystemMerged.Models.Ticket", b =>
+                {
+                    b.Navigation("Feedback")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("EventManagementSystemMerged.Models.User", b =>

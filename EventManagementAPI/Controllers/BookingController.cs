@@ -18,7 +18,7 @@ namespace EventManagementSystemMerged.Controllers
         }
 
         [HttpPost("book")]
-        public IActionResult BookTicket([FromBody] BookingRequest request)
+        public IActionResult BookTicket([FromForm] BookingRequest request)
         {
             if (request == null || request.UserID <= 0 || request.EventID <= 0)
             {
@@ -36,7 +36,7 @@ namespace EventManagementSystemMerged.Controllers
         }
 
         [HttpPost("cancel")]
-        public IActionResult CancelTicket([FromBody] BookingRequest request)
+        public IActionResult CancelTicket([FromForm] BookingRequest request)
         {
             if (request == null || request.UserID <= 0 || request.EventID <= 0)
             {

@@ -38,7 +38,7 @@ namespace EventManagementAPI.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Payment> CreatePayment([FromBody] Payment newPayment)
+        public ActionResult<Payment> CreatePayment([FromForm] Payment newPayment)
         {
             if (newPayment == null)
             {

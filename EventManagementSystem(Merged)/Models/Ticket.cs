@@ -12,6 +12,8 @@ namespace EventManagementSystemMerged.Models
         //public User User { get; set; }
         public DateTime BookingDate { get; set; }
         public string? Status { get; set; }
+        public Feedback Feedback { get; set; }
+
 
     }
 }

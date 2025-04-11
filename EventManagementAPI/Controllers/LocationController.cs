@@ -23,7 +23,7 @@ namespace EventManagementAPI.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddLocation([FromBody] Location location)
+        public ActionResult AddLocation([FromForm] Location location)
         {
             _locationService.EnterLocationDetails(location);
             return CreatedAtAction(nameof(GetLocationById), new { id = location.LocationID }, location);
@@ -41,7 +41,7 @@ namespace EventManagementAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult EditLocation(int id, [FromBody] Location location)
+        public ActionResult EditLocation(int id, [FromForm] Location location)
         {
             if (id != location.LocationID)
             {

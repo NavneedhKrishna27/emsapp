@@ -94,7 +94,11 @@ namespace EventManagementSystemMerged.Data
                 entity.HasOne<User>()
                       .WithMany(u => u.Feedbacks)
                       .HasForeignKey(f => f.UserID)
-                      .OnDelete(DeleteBehavior.Restrict); 
+                      .OnDelete(DeleteBehavior.Restrict);
+                entity.HasOne<Ticket>()
+.WithOne(t => t.Feedback)
+.HasForeignKey<Feedback>(f => f.TicketID)
+.OnDelete(DeleteBehavior.NoAction);
             });
             modelBuilder.Entity<Payment>(entity =>
             {

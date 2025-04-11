@@ -55,7 +55,7 @@ namespace EventManagement_Merged_.Controllers
 
         [Authorize(Policy = "UserOnly")]
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(int id, [FromBody] UpdateUserDto userDto)
+        public IActionResult UpdateUser(int id, [FromForm] UpdateUserDto userDto)
         {
             bool success = _userService.UpdateUser(id, userDto.Name, userDto.ContactNumber, userDto.UserType);
             if (!success) return NotFound();

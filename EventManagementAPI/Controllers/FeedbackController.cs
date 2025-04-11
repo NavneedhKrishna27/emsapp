@@ -15,19 +15,19 @@ namespace EventManagementAPI.Controllers
     {
         [Authorize]
         [HttpGet]
-        public IActionResult GetFeedbacks()
+        public IActionResult GetFeedbacks(int eventid)
         {
             FeedbackService feedbackService = new FeedbackService(new AppDbContext());
-            var feedbacks = feedbackService.ViewFeedbacks();
+            var feedbacks = feedbackService.ViewFeedbacks(eventid);
             return Ok(feedbacks);
         }
 
         [Authorize(Policy = "UserOnly")]
         [HttpPost]
-        public IActionResult AddFeedback([FromBody] Feedback feedback)
+        public IActionResult AddFeedback([FromForm] Feedback feedback)
         {
             FeedbackService feedbackService = new FeedbackService(new AppDbContext());
-            feedbackService.addFeedback(feedback);
+            feedbackService.AddFeedback(feedback);
             return Ok(new { message = "Feedback added successfully" });
         }
 
@@ -47,6 +47,18 @@ namespace EventManagementAPI.Controllers
             FeedbackService feedbackService = new FeedbackService(new AppDbContext());
             var ratingCounts = feedbackService.GetRatingCounts(eventId);
             return Ok(ratingCounts);
+        }
+        [Authorize]
+        [HttpDelete("DeleteFeedback/{id}")]
+        public IActionResult DeleteFeedback(int id)
+        {
+            FeedbackService feedbackService = new FeedbackService(new AppDbContext());
+            var result = feedbackService.DeleteFeedback(id);
+            if (!result)
+            {
+                return NotFound();
+            }
+            return Ok(new { message = "Feedback deleted successfully" });
         }
     }
 }

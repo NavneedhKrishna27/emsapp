@@ -27,7 +27,7 @@ namespace EventManagementAPI.Controllers
         }
 
         [HttpPost("add-event")]
-        public IActionResult AddEvent([FromBody] EventDTO eventDetails)
+        public IActionResult AddEvent([FromForm] EventDTO eventDetails)
         {
             if (!eventDetails.IsPrice)
             {
@@ -49,7 +49,7 @@ namespace EventManagementAPI.Controllers
         }
 
         [HttpPut("edit-event")]
-        public IActionResult EditEvent([FromBody] EventDTO evt)
+        public IActionResult EditEvent([FromForm] EventDTO evt)
         {
             if (!evt.IsPrice)
             {
